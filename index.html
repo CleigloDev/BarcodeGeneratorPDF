@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PDF Barcode Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script>
+        var aData = [{
+            "ID": "7680111001",
+            "type": "ASN"
+        }, {
+                "ID": "7680111001",
+                "type": "ASN"
+            }, {
+                "ID": "7680111003",
+                "type": "ASN"
+            }, {
+                "ID": "7680111004",
+                "type": "ASN"
+            }, {
+                "ID": "7680111005",
+                "type": "ASN"
+            }, {
+                "ID": "7680111006",
+                "type": "ASN"
+            }, {
+                "ID": "7680111007",
+                "type": "ASN"
+            }, {
+                "ID": "7680111007",
+                "type": "ASN"
+            }, {
+                "ID": "1000001",
+                "type": "COLLO"
+            }, {
+                "ID": "1000002",
+                "type": "COLLO"
+            }, {
+                "ID": "10000011",
+                "type": "COLLO"
+            }, {
+                "ID": "10000012",
+                "type": "COLLO"
+            }, {
+                "ID": "100000111",
+                "type": "COLLO"
+            }, {
+                "ID": "100000112",
+                "type": "COLLO"
+            }, {
+                "ID": "1000003",
+                "type": "COLLO"
+            }, {
+                "ID": "1000004",
+                "type": "COLLO"
+            }, {
+                "ID": "CN06020000",
+                "type": "AREA",
+                "areatype": "SCARICO"
+            }, {
+                "ID": "CNV5110000",
+                "type": "AREA",
+                "areatype": "SCARICO"
+            }, {
+                "ID": "CN07100101",
+                "type": "AREA",
+                "areatype": "SCARICO"
+            }, {
+                "ID": "CN06030000",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010101",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010102",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010103",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010201",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010202",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN01010203",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN51UD",
+                "type": "AREA",
+                "areatype": "DOGANA"
+            }, {
+                "ID": "CN06020101",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010101",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010102",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010103",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010104",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010201",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010202",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010203",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010204",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010301",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010302",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010303",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06010304",
+                "type": "AREA",
+                "areatype": "CONTA"
+            }, {
+                "ID": "CN06040101",
+                "type": "AREA",
+                "areatype": "ARA"
+            }, {
+                "ID": "CN06040102",
+                "type": "AREA",
+                "areatype": "ARA"
+            }, {
+                "ID": "CN06040103",
+                "type": "AREA",
+                "areatype": "ARA"
+            }, {
+                "ID": "CN06050001",
+                "type": "AREA",
+                "areatype": "BEM"
+            }];
+
+            this.generatePDF(aData);
+    </script>
+    </script>
+</head>
+
+<body id="content">
+</body>
+
+</html>
